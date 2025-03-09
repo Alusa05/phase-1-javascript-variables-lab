@@ -95,4 +95,27 @@ describe('index.js', function () {
       expect(calculatesFarePrice(34, 55)).to.equal('cannot travel that far');
     });
   });
+  describe('ternaryCheckCity()', function () {
+    it('returns "Ok, sounds good." for NYC', function () {
+      expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
+    });
+
+    it('returns "No go." for non-NYC destinations', function () {
+      expect(ternaryCheckCity('Pittsburgh')).to.equal('No go.');
+    });
+  });
+
+  describe('switchOnCharmFromTip()', function () {
+    it('returns "Thank you so much." for a generous tip', function () {
+      expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
+    });
+
+    it('returns "Thank you." for a not-as-generous tip', function () {
+      expect(switchOnCharmFromTip('not as generous')).to.equal('Thank you.');
+    });
+
+    it('returns "Bye." for anything else', function () {
+      expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
+    });
+  });
 });

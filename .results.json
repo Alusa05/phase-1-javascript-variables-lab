@@ -5,9 +5,9 @@
     "passes": 24,
     "pending": 0,
     "failures": 0,
-    "start": "2025-03-09T13:16:18.013Z",
-    "end": "2025-03-09T13:16:19.047Z",
-    "duration": 1034
+    "start": "2025-03-09T14:56:02.669Z",
+    "end": "2025-03-09T14:56:03.247Z",
+    "duration": 578
   },
   "tests": [
     {
@@ -41,7 +41,7 @@
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,14 +97,14 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -132,7 +132,7 @@
     {
       "title": "charges 25 dollars for distances over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice() charges 25 dollars for distances over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -146,7 +146,7 @@
     {
       "title": "returns \"Ok, sounds good.\" for NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" for NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -213,7 +213,7 @@
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -269,14 +269,14 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -304,7 +304,7 @@
     {
       "title": "charges 25 dollars for distances over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice() charges 25 dollars for distances over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -318,7 +318,7 @@
     {
       "title": "returns \"Ok, sounds good.\" for NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" for NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

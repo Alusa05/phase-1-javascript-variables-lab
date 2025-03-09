@@ -136,3 +136,29 @@ const fareTripler = createFareMultiplier(3);
 function selectDifferentDrivers(drivers, driverSelector) {
   return driverSelector(drivers);
 }
+// Task 1: Declare a variable in global scope called customerName using the var keyword and assign it the value 'bob'.
+var customerName = 'bob';
+
+// Task 2: Write a function that accesses that global customerName variable, and uppercases it.
+function upperCaseCustomerName() {
+  customerName = customerName.toUpperCase();
+}
+
+// Task 3: Write a function that when called, declares a variable called bestCustomer in global scope and assigns it to be 'not bob'.
+function setBestCustomer() {
+  bestCustomer = 'not bob'; // This will create a global variable `bestCustomer`
+}
+
+// Task 4: Write a new function called overwriteBestCustomer() that changes that bestCustomer variable to 'maybe bob'.
+function overwriteBestCustomer() {
+  bestCustomer = 'maybe bob';
+}
+
+// Task 5: Declare a constant (using the const keyword) in global scope called leastFavoriteCustomer; be sure to assign it some initial value.
+const leastFavoriteCustomer = 'Alice';
+
+// Task 6: Write a function called changeLeastFavoriteCustomer() that attempts to change that constant.
+function changeLeastFavoriteCustomer() {
+ 
+  leastFavoriteCustomer = 'Bob'; 
+}

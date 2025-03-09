@@ -119,3 +119,44 @@ describe('index.js', function () {
     });
   });
 });
+// New tests for the additional tasks
+describe('customerName', function () {
+  it('is declared as a global variable with var and initialized to "bob"', function () {
+    expect(customerName).to.equal('bob');
+    expect(js).to.match(/var customerName/, "Expected customerName to be declared with var");
+  });
+});
+
+describe('upperCaseCustomerName()', function () {
+  it('changes the customerName variable to uppercase', function () {
+    upperCaseCustomerName();
+    expect(customerName).to.equal('BOB');
+  });
+});
+
+describe('setBestCustomer()', function () {
+  it('declares a global variable bestCustomer and sets it to "not bob"', function () {
+    setBestCustomer();
+    expect(bestCustomer).to.equal('not bob');
+  });
+});
+
+describe('overwriteBestCustomer()', function () {
+  it('changes the bestCustomer variable to "maybe bob"', function () {
+    overwriteBestCustomer();
+    expect(bestCustomer).to.equal('maybe bob');
+  });
+});
+
+describe('leastFavoriteCustomer', function () {
+  it('is declared as a constant and initialized to "Alice"', function () {
+    expect(leastFavoriteCustomer).to.equal('Alice');
+    expect(js).to.match(/const leastFavoriteCustomer/, "Expected leastFavoriteCustomer to be declared with const");
+  });
+});
+
+describe('changeLeastFavoriteCustomer()', function () {
+  it('throws an error when attempting to reassign leastFavoriteCustomer', function () {
+    expect(() => changeLeastFavoriteCustomer()).to.throw(TypeError);
+  });
+});
